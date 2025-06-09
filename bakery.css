@@ -1,0 +1,145 @@
+.welcome-message {
+    font-family: 'Dancing Script', cursive; /* Use Dancing Script font or cursive as fallback */
+    font-size: 18px; /* Font size */
+    color: #333; /* Text color */
+    line-height: 1.5; /* Line height */
+    margin-bottom: 20px; /* Bottom margin */
+}
+header {
+    background-color:  rgb(173, 98, 28); /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 10px; /* Padding around the header content */
+    text-align: left; /* Center-align the text */
+    font-size: 20px; /* Larger font size */
+}
+select {
+    padding: 8px; /* Add padding to the select dropdown */
+    font-size: 16px; /* Set the font size */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Add border radius */
+    background-color: #b9b4c7; /* Set the background color */
+    color: #0422a8; /* Set the text color */
+}
+
+/* Add hover effect for the select dropdown */
+select:hover {
+    border-color: #999; /* Change border color on hover */
+}
+
+
+/* Style the buttons */
+/* Style the buttons */
+button {
+    padding: 10px 10px; /* Add padding */
+    font-size: 16px; /* Set the font size */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer */
+    margin-right: 10px; /* Add some right margin between buttons */
+}
+
+/* Style the second button */
+button[type="submit"] {
+    background-color: #4CAF50; /* Blue background color */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #e01894; /* Darker green background on hover */
+}
+
+/* Click (active) effect for buttons */
+button:active {
+    background-color: #751414; /* Darker green background color when clicked */
+}
+
+/* Apply border and shadow to images */
+/* Apply animation to images */
+body img:not([src='home.jpeg']):not([src='pic1.jpeg']):not([src='pic29.png']):not([src='pic30.png']):not([src='pic31.png']){
+    border: 4px solid #0e7e92; /* Add a 4px solid border with color #0e7e92 */
+    border-radius: 8px; /* Add a border radius of 8px to make images rounded */
+    padding: 5px; /* Add padding around the images */
+    width: 270px; /* Set width of images */
+    height: 270px; /* Set height of images */
+    object-fit: cover; /* Maintain aspect ratio */
+    transition: border-color 0.3s ease-in-out; /* Smooth transition for border color changes */
+    animation: pulse 1s infinite alternate; /* Apply pulse animation to the images */
+}
+
+/* Define pulse animation */
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+/* Apply hover effect to images */
+body img:not([src='home.jpeg']):not([src='pic1.jpeg']):not([src='pic29.png']):not([src='pic30.png']):not([src='pic31.png']):hover {
+    border-color: #469c6a; /* Change border color on hover to #469c6a */
+}
+
+
+/* Remove border for header images */
+header img {
+    border: none; /* Remove border for header images */
+}
+
+.menu-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set the background color of the menu bar to black */
+    overflow: hidden; /* Ensure all menu items are displayed */
+     /* Keep the menu bar fixed at the top of the viewport */
+    width: 100%; /* Make the menu bar span the full width of the viewport */
+    top: 0; /* Position the menu bar at the top of the viewport */
+}
+
+.menu-bar li {
+    float: left; /* Float the list items to create a horizontal menu */
+    width: 20%; /* Divide the menu bar into equal parts for each menu item */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.menu-bar li a {
+    display: block;
+    color: white; /* Set the color of the links to white */
+    text-align: center;
+    padding: 20px 0; /* Adjusted padding */
+    text-decoration: none;
+    font-size: 18px; /* Increase the font size */
+    border-right: 1px solid black; /* Add right border to all list items */
+}
+
+.menu-bar li:last-child a {
+    border-right: none; /* Remove right border from the last list item */
+}
+
+.menu-bar li a:hover {
+    background-color: #a04d0a; /* Change the background color of the link on hover */
+}
+
+/* Add box styling */
+.menu-bar li {
+    border: 1px solid rgb(173, 98, 28); /* Add border around each navigation item */
+}
+body {
+    background-image: url('pic28.jpg'); /* Replace 'background_image.jpg' with your image file */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-attachment: fixed; /* Fix the background so it doesn't scroll with the content */
+}
+.move {
+    position: absolute;
+    bottom: 2;
+    left: 81%;
+    transform: translateX(-50%);
+}

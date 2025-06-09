@@ -1,0 +1,158 @@
+header {
+    background-color:  rgb(173, 98, 28); /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 10px; /* Padding around the header content */
+    text-align: left; /* Center-align the text */
+    font-size: 20px; /* Larger font size */
+}
+.menu-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set the background color of the menu bar to black */
+    overflow: hidden; /* Ensure all menu items are displayed */
+     /* Keep the menu bar fixed at the top of the viewport */
+    width: 100%; /* Make the menu bar span the full width of the viewport */
+    top: 0; /* Position the menu bar at the top of the viewport */
+}
+
+.menu-bar li {
+    float: left; /* Float the list items to create a horizontal menu */
+    width: 20%; /* Divide the menu bar into equal parts for each menu item */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.menu-bar li a {
+    display: block;
+    color: white; /* Set the color of the links to white */
+    text-align: center;
+    padding: 20px 0; /* Adjusted padding */
+    text-decoration: none;
+    font-size: 18px; /* Increase the font size */
+    border-right: 1px solid black; /* Add right border to all list items */
+}
+
+.menu-bar li:last-child a {
+    border-right: none; /* Remove right border from the last list item */
+}
+
+.menu-bar li a:hover {
+    background-color: #a04d0a; /* Change the background color of the link on hover */
+}
+
+/* Add box styling */
+.menu-bar li {
+    border: 1px solid rgb(173, 98, 28); /* Add border around each navigation item */
+}
+body {
+    background-image: url('pic28.jpg'); /* Replace 'background_image.jpg' with your image file */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-attachment: fixed; /* Fix the background so it doesn't scroll with the content */
+}
+.welcome-message {
+    font-family: 'Dancing Script', cursive; /* Use Dancing Script font or cursive as fallback */
+    font-size: 18px; /* Font size */
+    color: #333; /* Text color */
+    line-height: 1.5; /* Line height */
+    margin: 0; /* Remove default margins */
+}
+
+
+iframe {
+    border: 3px solid #e74c3c; /* Border color */
+    border-radius: 20px; /* Rounded border corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft box shadow for depth */
+    padding: 15px; /* Padding around the iframe */
+    transition: border-color 0.3s ease-in-out; /* Smooth transition for border color changes */
+}
+
+/* Hover effect */
+iframe:hover {
+    border-color: #2c3e50; /* Change border color on hover */
+}
+
+button[type="submit"] {
+    background-color: #550951; /* Green background color */
+    border: none; /* Remove border */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underlines */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+button[type="submit"]:hover {
+    background-color: #17a0aa; /* Darker green color on hover */
+}
+/* Apply styles to the textarea box */
+/* Apply styles to the textarea box */
+textarea {
+    padding: 8px; /* Padding for the textarea */
+    margin: 5px 0; /* Margin around the textarea */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 4px solid #0f8499; /* Thick border with color #ccc */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    width: 100%; /* Make the textarea box 100% width */
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 80px; /* Minimum height of the textarea */
+    max-height: 150px; /* Maximum height of the textarea */
+    font-family: Arial, sans-serif; /* Font family */
+}
+/* Apply styles to the email input box */
+input[type="email"] {
+    padding: 8px; /* Padding for the input */
+    margin: 5px 0; /* Margin around the input */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 4px solid #0f8499; /* Thick border with color #ccc */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    width: 100%; /* Make the input box 100% width */
+    font-family: Arial, sans-serif; /* Font family */
+}
+input[type="text"] {
+    padding: 8px; /* Padding for the input */
+    margin: 5px 0; /* Margin around the input */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 4px solid #0f8499; /* Thick border with color #ccc */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    width: 100%; /* Make the input box 100% width */
+    font-family: Arial, sans-serif; /* Font family */
+}
+/* Define keyframes for the animation */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Apply animation and color to the .t1 elements */
+.t1 {
+    animation: slideInFromLeft 1s ease-out forwards;
+    color: #410bd4; /* Change text color to orange */
+}
+.follow-heading {
+    font-size: 24px; /* Font size */
+    color:  #833866; /* Text color */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+.social-icons img {
+    margin-right: 10px; /* Right margin between icons */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Increase the size of the image on hover */
+}

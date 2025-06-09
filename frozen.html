@@ -1,0 +1,301 @@
+<HTML>
+
+    <HEAD>
+    <TITLE> SNAP 'N' SHOP-FROZEN</TITLE>
+    <LINK rel="icon" type="image/jpg" href="logo.jpg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <STYLE>
+    
+    a:visited {
+    color: blue;
+    }
+    a:hover {
+    color:pink;
+    }
+    .BUTTON{
+    BACKGROUND-COLOR : GOld;
+    BORDER-RADIUS:4PX;
+    BORDER:1px solid black;
+    font-family: "Times New Roman", Times, serif;
+    }
+    
+    .button:active {
+      background-color: springgreen;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    
+    .container
+    {
+    position:relative;
+    width:100%
+    }
+    
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .9s ease;
+      background-color: White;
+    }
+    
+    .container:hover .overlay {
+      opacity: 0.9;
+    }
+    .text {
+      color: black;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+    
+    </STYLE>
+    
+    </HEAD>
+    
+    <BODY BGCOLOR="FLORALWHITE">
+    
+    <TABLE BACKGROUND="FF.JPG" STYLE="WIDTH:1500;HEIGHT:300;border-radius:10px">
+    <TR>
+    <TD> <IMG SRC="LOGO.JPG" ALT="LOGO" STYLE="WIDTH:300;HEIGHT:300; border-radius:50%"</TD>
+    <TD style="color:Red; FONT-SIZE:60;" class="font-effect-shadow-multiple">Snap 'N' Shop - Savings in Every Aisle! </TD>
+    </TR>
+    <TR>
+    <TD>
+    <NAV>
+    
+    <A HREF="home.html"  STYLE="COLOR:Red;" class="font-effect-shadow-multiple"><strong> HOME</strong> </A>&nbsp;
+    <A HREF="categories.html"  STYLE="COLOR:Red;" class="font-effect-shadow-multiple"><strong> CATEGORIES</strong>  </A>  &nbsp;
+    <A HREF="Aboutus.html"  STYLE="COLOR:Red;" class="font-effect-shadow-multiple"><strong> ABOUT US </strong> </A> &nbsp; 
+    <A HREF="faq.html"  STYLE="COLOR:Red;" class="font-effect-shadow-multiple"><strong>FAQ</strong>  </A>&nbsp;
+    <A HREF="contact.html"  STYLE="COLOR:Red;" class="font-effect-shadow-multiple"><strong> CONTACT US </strong> </A>&nbsp;
+    
+    
+    </NAV>
+    </TD>
+    </TR>
+    </TABLE>
+    
+    
+    
+    <BR>
+    <Br>
+    
+    <P style="font-size:24;" ALIGN="CENTER;"  class="font-effect-shadow-multiple">
+    
+     &nbsp&nbsp"Indulge in a frosty feast of convenience and flavor at our Frozen Foods Wonderland! Explore a world of delicious possibilities.Let the icy adventure begin."
+    </p>
+    <br>
+    <br>
+    
+    <TABLE STYLE="WIDTH:100%;">
+    
+    <TR>
+    
+    <TH>
+    <div class="container">
+    <IMG SRC="CB.png" alt="CHicken Breast" Style="width:300;height:300;border-radius:8px">
+    <div class="overlay">
+    <div class="text" style="color:black;"> Protein packed lean source Freshly cut Chicken Breast!
+     </div></div></div>
+    
+    <TH>
+    <div class="container">
+     <IMG SRC="CD.JPG" ALT="CD" STYLE="WIDTH:300;HEIGHT:300;border-radius:8px">
+    <div class="overlay">
+    <div class="text" style="color:black;"> Juicy and Fresh Chicken Legs.
+     </div></div></div>
+    <TH>
+    <div class="container">
+    <IMG SRC="FISH.JPEG" ALT="FISH" STYLE="WIDTH:300;HEIGHT:300;border-radius:8px">
+    <div class="overlay">
+    <div class="text" style="color:black;"> Juicy and Fresh Fish Fillet right out of the river!
+     </div></div></div>
+    <TH> 
+    <div class="container">
+    <IMG SRC="FL.JPG" ALT="FISH" STYLE="WIDTH:300;HEIGHT:300;border-radius:8px">
+    <div class="overlay">
+    <div class="text" style="color:black;"> Tender,Soft,Flavourful Lamb Chops ready to up the grill!
+     </div></div></div>
+    </TR>
+    <BR>
+    
+    <TR align="center">
+    <TD><STRONG> CHICKEN BREAST</STRONG> </TD>
+    <TD> <STRONG>CHICKEN DRUMSTICK</STRONG> </TD>
+    <TD> <STRONG>FISH FILLET </STRONG></TD>
+    <TD> <STRONG>LAMB CHOPS </STRONG></TD>
+    </TR>
+    
+    <TR align="center">
+    <TD>₹150 per 100g </TD>
+    <TD> ₹200 per 100g </TD>
+    <TD> ₹150 per 100g  </TD>
+    <TD> ₹250 per 100g  </TD>
+    </TR> 
+    
+    <TR ALIGN ="CENTER">
+    <TD> 
+    <SELECT NAME="FOOD" ID="FOOD">
+    <OPTION VALUE="CB">100</OPTION>
+    <OPTION VALUE="CB">250</OPTION>
+    <OPTION VALUE="CB">500</OPTION>
+    </SELECT>
+    </TD>
+    <TD> 
+    <SELECT NAME="FOOD" ID="FOOD">
+    <OPTION VALUE="CB">100</OPTION>
+    <OPTION VALUE="CB">250</OPTION>
+    <OPTION VALUE="CB">500</OPTION>
+    </SELECT>
+    </TD>
+    <TD> 
+    <SELECT NAME="FOOD" ID="FOOD">
+    <OPTION VALUE="CB">100</OPTION>
+    <OPTION VALUE="CB">250</OPTION>
+    <OPTION VALYE="CB">500</OPTION>
+    </SELECT>
+    </TD>
+    <TD> 
+    <SELECT NAME="FOOD" ID="FOOD">
+    <OPTION VALUE="CB">100</OPTION>
+    <OPTION VALUE="CB">250</OPTION>
+    <OPTION VALUE="CB">500</OPTION>
+    </SELECT>
+    </TD>
+    </TR>
+    <TR ALIGN="CENTER">
+    <TD> <BUTTON TYPE="BUTTON"  CLASS="BUTTON" > ADD TO CART </BUTTON>
+     <BUTTON TYPE="BUTTON" CLASS="BUTTON" > BUY NOW </BUTTON> </TD>
+    <TD> <BUTTON TYPE="BUTTON"  CLASS="BUTTON" > ADD TO CART </BUTTON>
+     <BUTTON TYPE="BUTTON" CLASS="BUTTON" > BUY NOW </BUTTON> </TD>
+    <TD> <BUTTON TYPE="BUTTON"   CLASS="BUTTON" "> ADD TO CART </BUTTON>
+     <BUTTON TYPE="BUTTON" CLASS="BUTTON" > BUY NOW </BUTTON> </TD>
+    <TD> <BUTTON TYPE="BUTTON"  CLASS="BUTTON" > ADD TO CART </BUTTON> 
+    <BUTTON TYPE="BUTTON" CLASS="BUTTON"> BUY NOW </BUTTON> </TD>
+    </TR>
+    </Table>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <Table style="width:100%;">
+    
+    
+    <TR>
+    <TH>
+    <div class="container">
+     <img src="VP.PNG" alt="VP" style="width:300;height:300;border-radius:8px">
+    <div class="overlay">
+    <div class="text" style="color:black;"> Green Vegetables mixed with mashed potatoes read to go on the pan!
+     </div></div></div>
+    <TH>
+    <div class="container">
+     <img src="Mp.JPG" alt="VP" style="width:300;height:300;border-radius:8px"> 
+    <div class="overlay">
+    <div class="text" style="color:black;"> Dripping , tender spicy minced mutton.
+     </div></div></div>
+    <TH> 
+    <div class="container">
+    <img src="ff1.jpg" alt="VP" style="width:300;height:300; border-radius:8px"> 
+    <div class="overlay">
+    <div class="text" style="color:black;"> Fresh potatoes chopped to order for the golden fries.
+     </div></div></div>
+    <TH>
+    <div class="container">
+     <img src="IC.JPG" alt="VP" style="width:300;height:300;border-radius:8px"> 
+    <div class="overlay">
+    <div class="text" style="color:black;"> Satisy your dessert temptations with our  terrific international flavours
+     </div></div></div>
+    </TR>
+    
+    <TR align="center">
+    <TD> <STRONG>VEGGIE PATTIES </STRONG></TD>
+    <TD><STRONG> MUTTON PATTIES</STRONG> </TD>
+    <TD> <STRONG>POTATO FRIES</STRONG> </TD>
+    <TD> <STRONG>ICE CREAM </STRONG></TD>
+    </TR>
+    
+    <TR align="center">
+    <TD> ₹199 per 100g </TD>
+    <TD> ₹349 per 100g </TD>
+    <TD> ₹149 per 100g </TD>
+    <TD> ₹249 per 500ml </TD>
+    </TR>
+    
+    <TR align="center">
+    <TD>
+     <SELECT TYPE="FOOD" ID="FOOD">
+    <OPTION VALUE="CB"> 100 </OPTION>
+    <OPTION VALUE="CB"> 250 </OPTION>
+    <OPTION VALUE="CB"> 500 </OPTION>
+    </SELECT>
+     </TD>
+    <TD> 
+     <SELECT TYPE="FOOD" ID="FOOD">
+    <OPTION VALUE="CB"> 100 </OPTION>
+    <OPTION VALUE="CB"> 250 </OPTION>
+    <OPTION VALUE="CB"> 500 </OPTION>
+    </SELECT>
+     </TD>
+    <TD> 
+     <SELECT TYPE="FOOD" ID="FOOD">
+    <OPTION VALUE="CB"> 100 </OPTION>
+    <OPTION VALUE="CB"> 250 </OPTION>
+    <OPTION VALUE="CB"> 500 </OPTION>
+    </SELECT> 
+    </TD>
+    <TD> 
+     <SELECT TYPE="FOOD" ID="FOOD">
+    <OPTION VALUE="CB">500 </OPTION>
+    <OPTION VALUE="CB"> 1000</OPTION>
+    <OPTION VALUE="CB"> 2000 </OPTION>
+    </SELECT>
+     <SELECT TYPE="FOOD" ID="FOOD">
+    <OPTION VALUE="CB"> LAVENDERINE VANILLA </OPTION>
+    <OPTION VALUE="CB"> SEA SALT CARAMEL </OPTION>
+    <OPTION VALUE="CB"> CHOCOLATE MOUSSE </OPTION>
+    </SELECT>
+    
+    
+     </TD>
+    </TR>
+    
+    <TR ALIGN="CENTER">
+    <BR>
+    <TD> <BUTTON TYPE="BUTTON" class="Button"> ADD TO CART </BUTTON> <BUTTON TYPE="BUTTON" class="Button"> BUY NOW </BUTTON> </TD>
+    <TD> <BUTTON TYPE="BUTTON" class="Button""> ADD TO CART </BUTTON>
+     <BUTTON TYPE="BUTTON" class="Button"> BUY NOW </BUTTON> </TD>
+    <TD> <BUTTON TYPE="BUTTON" class="Button"> ADD TO CART </BUTTON> 
+    <BUTTON TYPE="BUTTON" class="Button"> BUY NOW </BUTTON> </TD>
+    <TD> <BUTTON TYPE="BUTTON" class="Button"> ADD TO CART </BUTTON> 
+    <BUTTON TYPE="BUTTON" class="Button"> BUY NOW </BUTTON> </TD>
+    </TR>
+    
+    </Table>
+    
+    
+    
+    
+    
+    </TABLE>
+    
+    </BODY>
+    
+    </HTML>

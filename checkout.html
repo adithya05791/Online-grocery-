@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="checkout.css">
+    <title>Checkout - Grocery Delivery App</title>
+    <style>#grad1 {
+        height: 200px;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+      }</style>
+    
+    
+</head>
+
+<body bgcolor="#f0f0f0">
+  
+
+    <header>
+        <table background="home.jpeg" width="100%" height="100%">
+            <tr>
+                <td><img src="huhu.jpg" alt="Logo" width="170" height="170"></td>
+                
+            
+                <td>
+                    <h1 style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;Snap 'N' Shop - Savings in Every Aisle!</h1>
+                    <nav>
+                        <ul>
+                            <a href="home.html" style="color: #FBF7D5;">Home</a>&nbsp;&nbsp;
+                            <a href="categories.html" style="color: #FBF7D5;">Categories</a>&nbsp;&nbsp;
+                            <a href="Aboutus.html" style="color: #FBF7D5;">About Us</a>&nbsp;&nbsp;
+                            <a href="contact.html" style="color: #FBF7D5;">Contact Us</a>&nbsp;&nbsp;
+                            <a href="faq.html" style="color: #FBF7D5;">FAQ</a>&nbsp;&nbsp;
+                        </ul>
+                    </nav>
+                </td>
+            </tr>
+        </table>
+        <div class="main">
+            <marquee class="marq" bgcolor="Green" direction="left" loop="">
+                <div class="huhu1">
+                    ~FLASH SALE~ upto 50% 0ff ~FLASH SALE~
+                </div>
+                
+            </marquee>
+        </div>
+        
+                   <h2 align="center"> Checkout </h2>
+        </header>
+
+    
+
+    <main  background="pic8.jpeg" width="100%" height="100%">
+        
+        
+        <section class="order-summary">
+            <h3 align="center">Your Order</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item 1</td>
+                        <td>5</td>
+                        <td>25.00</td>
+                    </tr>
+                    <tr>
+                        <td>Item 2</td>
+                        <td>3</td>
+                        <td>25.00</td>
+                    </tr>
+                    <tr>
+                        <td>Item 3</td>
+                        <td>5</td>
+                        <td>25.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Subtotal</td>
+                        <td>25.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Delivery Fee</td>
+                        <td>5.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Total</td>
+                        <td>XXX</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section class="delivery-details">
+            <h4 align="center">Delivery Details</h4>
+            <form action="">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div>
+                    <label for="delivery-time">Preferred Delivery Time:</label>
+                    <select id="delivery-time" name="delivery-time">
+                        <option value="ASAP">As soon as possible</option>
+                        <option value="morning">Morning (8am-12pm)</option>
+                        <option value="afternoon">Afternoon (12pm-4pm)</option>
+                        <option value="evening">Evening (4pm-8pm)</option>
+                    </select>
+                </div>
+            </form>
+        </section>
+
+        <section class="payment-options">
+            <h4 align="center">Payment Options</h4>
+            <div 
+            class="payment-methods">
+            <label for="payment methods">Preferred method:</label>
+                    <select id="payment-options" name="payment-options">
+                        <option value="SELECT">SELECT</option>
+                        <option value="UPI">UPI</option>
+                        <option value="DEBIT CARD">DEBIT CARD</option>
+                        <option value="CREDIT CARD">CREDIT CARD</option>
+                        <option value="NET BANKING">NET BANKING</option>
+                    </select>
+            </div>
+            
+            <form action="">
+                <div><label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number">
+            </div>
+                
+         <div><label for="card-number">Card Number:</label>
+        <input type="text" id="card-number" name="card-number">
+    </div>
+               
+               <div><label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv">
+        </div>
+
+        
+               <div align="center"><button type="submit">Complete Checkout</button></div> 
+            </form>
+        </section>
+    </main>
+<br><br>
+    <footer>
+        <h2>Follow us</h2>
+        <table>
+            <img src="facebook.png" alt="facebook" width="30" height="30">&nbsp;
+            <img src="insta.png" alt="instagram" width="30" height="30">&nbsp;
+            <img src="twitter.png" alt="twitter" width="30" height="30">&nbsp;
+            <img src="youtube.png" alt="youtube" width="35" height="30">
+            
+            </table>
+
+        <h2>Download Our Mobile App<h2></h2>
+            <a href="https://www.googleplay.com"><img src="pic8.png" alt="Google Play" width="120" height="50"></a>
+        
+<p><a href="privacy-policy">Privacy Policy</a> | <a href="terms-of-service">Terms of Service</a></p>  
+        
+<p>&copy; 2024  Snap 'N' Shop. All rights reserved.</p>
+
+
+    </footer>
+</body>
+
+</html>

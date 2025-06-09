@@ -1,0 +1,360 @@
+/*home page*/
+header {
+  background-color: rgb(173, 98, 28);
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+/*menu bar*/
+.menu-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+}
+.menu-bar li {
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+}
+.menu-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: none;
+  font-size: 18px;
+  border-right: 1px solid black;
+}
+
+.menu-bar li:last-child a {
+  border-right: none;
+}
+.menu-bar li a:hover {
+  background-color: #ca6512;
+}
+.menu-bar li {
+  border: 1px solid rgb(173, 98, 28);
+}
+/*background image*/
+body {
+  background-image: url("pic28.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.welcome-message {
+  font-family: "Dancing Script", cursive;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.content-box {
+  border: 2px solid #00008b;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  background-color: #f5f5f5;
+}
+.moving-text {
+  animation: moveText 4s linear infinite alternate;
+  color: #006400;
+  font-size: 45px;
+}
+@keyframes moveText {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+.product-image img {
+  display: block;
+  max-width: 100%;
+  border: 2px solid #080707;
+  padding: 5px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+.product-image img:hover {
+  border-color: #ff0000;
+  transform: scale(1.05);
+}
+.produc-image img {
+  display: block;
+  width: 95%; /* Adjust width as needed */
+  border: 2px solid #080707;
+  padding: 5px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+.produc-image img:hover {
+  border-color: #ff0000;
+  transform: scale(1.05);
+}
+.fade-in-out {
+  animation: fadeInOut 2s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.special-offers-heading {
+  color: #ff0000;
+  font-weight: bold;
+  animation: blink 0.8s infinite alternate;
+  font-size: 45px;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/*Become a member section*/
+.membership-section button {
+  background-color: #dd577f;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-b;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.membership-section button:hover {
+  background-color: #45a049;
+}
+
+.membership-section h2 {
+  font-size: 28px;
+  color: #833866;
+  margin-bottom: 10px;
+  animation: changeColor 8s infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    color: #c912a1;
+  }
+  25% {
+    color: #34eb67;
+  }
+  50% {
+    color: #6578e6;
+  }
+  75% {
+    color: #e64747;
+  }
+  100% {
+    color: #c912a1;
+  }
+}
+
+hr {
+  border-color: #00008b;
+}
+/*footer*/
+.follow-heading {
+  font-size: 24px;
+  color: #833866;
+  margin-bottom: 10px;
+}
+.social-icons img {
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+.download-heading {
+  font-size: 24px;
+  color: #833866;
+  margin-bottom: 10px;
+}
+
+.mobile-app-image {
+  display: block;
+  margin-top: 10px;
+}
+
+/*Scroll bar*/
+/* Vertical scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Horizontal scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #0c0c0c;
+  border-radius: 6px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b41a1a;
+}
+
+.search-container {
+  position: relative;
+  width: 1230px;
+}
+
+#searchInput {
+  width: calc(100% - 40px); /* Adjust width to accommodate the search icon */
+  padding: 10px;
+  font-size: 16px;
+  padding-left: 40px; /* Add padding to the left to accommodate the search icon */
+  background-color: black; /* Set the background color */
+  color: white; /* Set text color to contrast with the background */
+  border: 4px solid #ec730f; /* Add a border for better visibility */
+  border-radius: 5px; /* Optional: Add border radius for rounded corners */
+}
+
+.suggestions {
+  position: absolute;
+  width: calc(100% - 40px); /* Adjust width to match the search input width */
+  background-color: #f9f9f9;
+  z-index: 1;
+  border: 1px solid #ddd;
+  border-top: none;
+  top: 100%; /* Position suggestions below the search input */
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #f1f1f1;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjust as needed */
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #555; /* Adjust color as needed */
+  cursor: pointer;
+}
+/*slider*/
+.slider-container {
+  width: 100%; /* Make the slider container occupy the full width */
+
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.slide-container {
+  display: flex;
+  justify-content: space-between; /* Distribute space between images */
+  width: 100%; /* Make the container occupy the full width */
+}
+
+.produc-image {
+  width: calc(
+    33.33% - 16px
+  ); /* Set equal width for each image with space in between */
+  border: 1px solid #ccc; /* Add border for visual separation */
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.prev,
+.next {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #b3007d;
+}
+.hidden {
+  display: none;
+}
+
+.chat-container {
+  max-width: 400px;
+  margin: 1%;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 70px;
+  border-width: 3px 0px 0px 0px;
+  border-top-color: rgb(216, 65, 65);
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  background-color: white;
+}
+
+.chat-container.active {
+  transform: translateX(0);
+}
+
+.chat-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+#message-input {
+  width: calc(100% - 70px);
+  padding: 5px;
+  margin-left: 10px;
+  display: none;
+}
+#send-button {
+  padding: 8px 10px;
+  background-color: #2667ad;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin-left: 10px;
+  margin-top: 7px;
+  display: none;
+}
+.chat-container.active #message-input,
+.chat-container.active #send-button {
+  display: block;
+}

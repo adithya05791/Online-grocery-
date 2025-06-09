@@ -1,0 +1,140 @@
+
+  body {
+    font-family: sans-serif;
+    margin: auto !important;
+    background-color: #f0f0f0;
+}
+ .main {
+     text-align: center;
+ }
+
+ .marq {
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+
+ .huhu1 {
+     font-size: 25px;
+     font-weight: bold;
+     color: white;
+     padding-bottom: 10px;
+ }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-left: 15px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+
+h2,
+h3,
+h4 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    
+    }
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px gr #ccc;
+    border: 1.75px solid #5c6ef5;
+    margin: auto !important;
+}
+
+th {
+    background-color: #f2f2f2;
+    border: 1.75px solid #5c6ef5;
+    margin: auto !important;
+    outline-offset: 5px;
+    
+}
+
+tfoot td {
+    font-weight: bold;
+    
+}
+
+label {
+    display: inline-flexbox;
+    margin-bottom: 5px;
+    margin: auto !important;
+    outline-offset: 5px;
+    
+}
+
+input[type="text"],
+input[type="tel"],
+select {
+    width: 45%;
+    padding: 10px 20px;
+    border: 1px solid #62ff0096;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+tr:hover {
+    background-color: rgb(249, 132, 65);
+}
+
+footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}

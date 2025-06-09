@@ -1,0 +1,121 @@
+/*spices page*/
+header {
+    background-color:  rgb(173, 98, 28); 
+    color: #fff; 
+    padding: 10px; 
+    text-align: left; 
+    font-size: 20px; 
+}
+.menu-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    overflow: hidden;
+    width: 100%; 
+    top: 0; 
+}
+
+.menu-bar li {
+    float: left; 
+    width: 20%; 
+    box-sizing: border-box; 
+}
+
+.menu-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 0; 
+    text-decoration: none;
+    font-size: 18px; 
+    border-right: 1px solid black; 
+}
+
+.menu-bar li:last-child a {
+    border-right: none; 
+}
+
+.menu-bar li a:hover {
+    background-color: #a04d0a; 
+}
+.menu-bar li {
+    border: 1px solid rgb(173, 98, 28); 
+}
+/*background image*/
+body {
+    background-image: url('pic28.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+.welcome-message {
+    font-family: 'Dancing Script', cursive; 
+    font-size: 18px; 
+    color: #333; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+}
+/*styling images*/
+body img:not([src='home.jpeg']):not([src='pic1.jpeg']):not([src='pic29.png']):not([src='pic30.png']):not([src='pic31.png']) {
+    border: 2px solid #3498db; 
+    border-radius: 12px; 
+    padding: 8px;
+    width: 270px; 
+    height: 270px; 
+    object-fit: cover; 
+    transition: transform 0.5s ease-in-out; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+body img:not([src='home.jpeg']):not([src='pic1.jpeg']):not([src='pic29.png']):not([src='pic30.png']):not([src='pic31.png']):hover {
+    transform: rotate(20deg); 
+    border-color: #2ecc71; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+header img {
+    border: none; 
+}
+
+/*styling buttons*/
+select {
+    padding: 8px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background-color: #b9b4c7; 
+    color: #0422a8; 
+}
+select:hover {
+    border-color: #999; 
+}
+button {
+    padding: 10px 10px; 
+    font-size: 16px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin-right: 10px; 
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; 
+}
+
+button:hover {
+    background-color: #e01894; 
+}
+
+button:active {
+    background-color: #751414; 
+}
+/*navigation images*/
+.move {
+    position: absolute;
+    bottom: 2;
+    left: 81%;
+    transform: translateX(-50%);
+}
+

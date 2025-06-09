@@ -1,0 +1,10 @@
+body
+{
+background-image: url("BG.jpg");
+background-attachment:fixed;
+}
+IMG
+{
+  border: 10pX SOLID BLACK;
+BORDER-COLOR:LAVENDER;
+}
